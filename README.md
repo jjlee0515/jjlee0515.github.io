@@ -1,1 +1,5 @@
-# jjlee0515.github.io
+# 이재준 연구실
+
+가천대학교 간호대학 이재준 조교수 개인 연구 홈페이지입니다.
+
+https://jjlee0515.github.io

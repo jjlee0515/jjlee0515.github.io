@@ -13,7 +13,7 @@
 :root {
   --paper: #FFFFFF;
   --ink: #17202C;
-  --muted: #586373;
+  --muted: #4A5563;
   --rule: #DDE3EA;
   --accent: #0B4EA2;
   --tint: #EEF3FC;
@@ -25,7 +25,7 @@
   --surface: #F5F8FB;
   --font-display: "Gowun Batang", "Nanum Myeongjo", "AppleMyungjo", Georgia, serif;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
-  --s-1: 0.875rem; --s0: 1rem; --s1: 1.125rem; --s2: 1.5rem; --s3: 2rem; --s4: 2.75rem;
+  --s-1: 0.9375rem; --s0: 1rem; --s1: 1.125rem; --s2: 1.5rem; --s3: 2rem; --s4: 2.75rem;
   color-scheme: light;
 }
 * { box-sizing: border-box; }
@@ -68,7 +68,7 @@ section > h2 { font-size: var(--s3); line-height: 1.25; }
 .hero { gap: 2rem; }
 .hero h1 { font-size: var(--s4); line-height: 1.15; letter-spacing: -0.01em; }
 .hero .title { font-size: var(--s1); color: var(--muted); }
-.hero .intro { max-width: 38rem; font-size: var(--s1); }
+.hero .intro { max-width: 34rem; font-size: 1.375rem; line-height: 1.65; font-weight: 500; color: var(--ink); }
 
 .ruler { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 1.5rem 1.5rem 1.25rem; display: flex; flex-direction: column; gap: 1.25rem; }
 .cells { display: grid; grid-template-columns: repeat(16, 1fr); gap: 4px; max-width: 26rem; }
@@ -183,6 +183,7 @@ footer { color: var(--muted); font-size: var(--s-1); border-top: 1px solid var(-
   .theme { grid-template-columns: 1fr; gap: 0.75rem; }
   .two { grid-template-columns: 1fr; }
   .hero h1 { font-size: var(--s3); }
+  .hero .intro { font-size: 1.1875rem; }
   main { gap: 3.5rem; }
 }
 @media (max-width: 420px) {

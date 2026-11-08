@@ -15,10 +15,13 @@
   --ink: #17202C;
   --muted: #586373;
   --rule: #DDE3EA;
-  --accent: #22609F;
-  --tint: #EDF5FD;
-  --tint-line: #C6DBF1;
-  --mark: #B26B12;
+  --accent: #0B4EA2;
+  --tint: #EEF3FC;
+  --tint-line: #C3D4F0;
+  --g-orange: #F08300;
+  --g-green: #8DC63F;
+  --g-sky: #00A0E9;
+  --mark: #E07400;
   --surface: #F5F8FB;
   --font-display: "Gowun Batang", "Nanum Myeongjo", "AppleMyungjo", Georgia, serif;
   --font-body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
@@ -28,12 +31,12 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --paper: #131A23; --ink: #E6EBF1; --muted: #9AA6B5; --rule: #2A3542;
-    --accent: #86B2DC; --mark: #E2A04A; --surface: #19222D; --tint: #18283A; --tint-line: #2B4561; color-scheme: dark;
+    --accent: #8DB2F2; --mark: #F5A04A; --surface: #19222D; --tint: #18283A; --tint-line: #2B4561; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --paper: #131A23; --ink: #E6EBF1; --muted: #9AA6B5; --rule: #2A3542;
-  --accent: #86B2DC; --mark: #E2A04A; --surface: #19222D; --tint: #18283A; --tint-line: #2B4561; color-scheme: dark;
+  --accent: #8DB2F2; --mark: #F5A04A; --surface: #19222D; --tint: #18283A; --tint-line: #2B4561; color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -178,6 +181,7 @@ details[open] summary { margin-bottom: 1rem; }
   .join { padding: 1.5rem 1.25rem; }
   .join-grid { grid-template-columns: 1fr; }
 }
+body::before { content: ""; display: block; height: 5px; background: linear-gradient(90deg, var(--accent) 0 55%, var(--g-sky) 55% 70%, var(--g-green) 70% 85%, var(--g-orange) 85% 100%); }
 footer { color: var(--muted); font-size: var(--s-1); border-top: 1px solid var(--rule); padding-top: 1.5rem; }
 
 @media (max-width: 860px) {

@@ -165,7 +165,8 @@ details[open] summary { margin-bottom: 1rem; }
 .join-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--tint-line); }
 .btn { display: inline-block; background: var(--accent); color: var(--surface); text-decoration: none; font-weight: 600; padding: 0.6rem 1.2rem; border-radius: 6px; }
 .btn:hover { filter: brightness(1.08); }
-.join-cta .addr { color: var(--ink); font-size: var(--s1); }
+.join-cta .addr { color: var(--ink); font-size: var(--s0); max-width: 34rem; }
+.join-cta .mail { font-weight: 600; }
 @media (max-width: 640px) {
   .join { padding: 1.5rem 1.25rem; }
   .join-grid { grid-template-columns: 1fr; }
@@ -267,44 +268,16 @@ footer { color: var(--muted); font-size: var(--s-1); border-top: 1px solid var(-
         <dd><span lang="ko">근무 형태(전일제, 시간제)에 맞춰 지급하며, 가천대학교 내규에 따릅니다.<br>예) 전일제 석사과정생 월 최대 220만 원, 박사과정생 월 최대 300만 원</span><span lang="en">Paid by full-time or part-time status, following Gachon University regulations.<br>e.g. full-time master&#39;s students up to KRW 2.2 million per month; doctoral students up to KRW 3.0 million.</span></dd>
         <dt><span lang="ko">근무 방식</span><span lang="en">Working arrangement</span></dt>
         <dd><span lang="ko">출근과 재택 비율은 협의할 수 있습니다.</span><span lang="en">The balance of office and remote work is open to discussion.</span></dd>
+        <dt><span lang="ko">연구 지원</span><span lang="en">Support</span></dt>
+        <dd><span lang="ko">직접 해 보고 싶은 연구가 있다면 연구비를 포함해 힘닿는 데까지 돕겠습니다. 학회 발표와 세미나, 교육 참여도 지원합니다.</span><span lang="en">If there is research you want to try yourself, I will help as much as I can, including funding. Presenting at conferences and joining seminars and training are supported too.</span></dd>
       </dl>
-
-      <div class="perks-wrap">
-        <h3><span lang="ko">연구 지원</span><span lang="en">Research support</span></h3>
-        <div class="perks">
-          <div class="perk">
-            <strong><span lang="ko">본인 연구 지원</span><span lang="en">Your own research</span></strong>
-            <span lang="ko">하고 싶은 연구 주제가 있다면, 연구비를 포함해 최대한 지원합니다.</span>
-            <span lang="en">If there is a topic you want to pursue, I will support it as fully as I can, including funding.</span>
-          </div>
-          <div class="perk">
-            <strong><span lang="ko">학술대회 참가 지원</span><span lang="en">Conferences</span></strong>
-            <span lang="ko">학술대회 참가 경비를 지원합니다.</span>
-            <span lang="en">Support for conference attendance costs.</span>
-          </div>
-          <div class="perk">
-            <strong><span lang="ko">세미나 및 교육 지원</span><span lang="en">Seminars and training</span></strong>
-            <span lang="ko">세미나와 교육 프로그램 참여를 지원합니다.</span>
-            <span lang="en">Support for seminars and training programmes.</span>
-          </div>
-        </div>
-      </div>
 
       <p class="closing" lang="ko">오랫동안 함께 연구할 분을 찾습니다.<br>저도 아직 모르는 것이 많고, 배워야 할 것이 많습니다.<br>함께하며 서로 성장할 수 있기를 바랍니다.</p>
       <p class="closing" lang="en">I am looking for someone to do research with over the long term.<br>There is still much I don't know and much I need to learn.<br>I hope we can grow together.</p>
 
-      <div class="apply">
-        <h3><span lang="ko">지원 및 문의</span><span lang="en">How to apply</span></h3>
-        <dl class="join-rows">
-        <dt><span lang="ko">지원 방법</span><span lang="en">How</span></dt>
-        <dd><span lang="ko">이메일로 지원하거나, 먼저 상담을 요청하셔도 됩니다.</span><span lang="en">Apply by email, or write first to ask questions.</span></dd>
-        <dt><span lang="ko">제출 자료</span><span lang="en">What to send</span></dt>
-        <dd><span lang="ko">CV 또는 이력서, 관심 연구 분야, 간단한 자기소개와 지원 동기</span><span lang="en">A CV or résumé, your research interests, and a short introduction with your motivation</span></dd>
-        </dl>
-        <div class="join-cta">
-          <a class="btn" href="mailto:jjlee0515@gachon.ac.kr?subject=%5BFRAILTY-Care%5D%20%EC%97%B0%EA%B5%AC%EC%9B%90%20%EC%A7%80%EC%9B%90%C2%B7%EB%AC%B8%EC%9D%98"><span lang="ko">이메일로 지원·문의하기</span><span lang="en">Apply or ask by email</span></a>
-          <span class="addr">jjlee0515@gachon.ac.kr</span>
-        </div>
+      <div class="join-cta">
+        <a class="btn" href="mailto:jjlee0515@gachon.ac.kr?subject=%5BFRAILTY-Care%5D%20%EC%97%B0%EA%B5%AC%EC%9B%90%20%EB%AC%B8%EC%9D%98"><span lang="ko">메일 보내기</span><span lang="en">Send an email</span></a>
+        <span class="addr"><span lang="ko">궁금한 점이 있으면 편하게 메일 주세요. 지원하실 때는 CV와 함께 관심 있는 연구 주제를 몇 줄 적어 보내 주시면 됩니다.</span><span lang="en">Feel free to email me with any questions. To apply, send your CV with a few lines on the research you are interested in.</span><br><span class="mail">jjlee0515@gachon.ac.kr</span></span>
       </div>
     </section>
 

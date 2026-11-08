@@ -28,17 +28,6 @@
   --s-1: 0.875rem; --s0: 1rem; --s1: 1.125rem; --s2: 1.5rem; --s3: 2rem; --s4: 2.75rem;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #131A23; --ink: #E6EBF1; --muted: #9AA6B5; --rule: #2A3542;
-    --accent: #8DB2F2; --mark: #F5A04A; --surface: #19222D; --tint: #18283A; --tint-line: #2B4561; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --paper: #131A23; --ink: #E6EBF1; --muted: #9AA6B5; --rule: #2A3542;
-  --accent: #8DB2F2; --mark: #F5A04A; --surface: #19222D; --tint: #18283A; --tint-line: #2B4561; color-scheme: dark;
-}
-
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
